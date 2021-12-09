@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap');
+
+/*overall layout*/
+html{
+    position: relative;
+    min-height: 100%;
+}
+body, html {
+    height: 100%;  
+}
+  
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mainContent{
+    margin-left: 7rem;
+    margin-right: 7rem;
+    height: 100vh;
+    margin-bottom: 100px;
+    padding: 20px;
+}
+/*navbar*/
+header {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    margin-left: 7rem;
+    margin-right: 7rem;
+}
+    header img {
+        float: left;
+        width: 15%;
+    }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+  
+    li {
+        display: inline;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    li a{
+        color: black;
+    }
+.mainNavBar{ 
+    text-align: center;
+    padding: 20px;
+}
+.topRightNavBar{
+    float: right;
+    font-size: small;
+}
+
+/*hero*/
+.hero-image {
+    background-image: url('../images/HOMEPAGE.png');
+    height: 80%;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.hero-text {
+    position: absolute;
+    top: 30%;
+    color: black;
+    width: 50%;
+}
+.hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: white;
+    background-color: #406D9F;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+  
+  .hero-text button:hover {
+    background-color: #555;
+    color: white;
+  }
+
+.card-number{
+    font-size: 60px;
+    font-weight: 700;
+}
+.card-width{
+    width: 366px;
+    height: 165px;
+}
+
+/*Footer*/
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#F2F2F2;
+    color: black;
+
+    
+  }
+
+  .bullet{
+    list-style-type: initial  !important;
+  }
+  .bullet li{
+      display: revert !important;
+      margin-left: 30px;
+  }
+
+  .text-blue{
+      color: #85BEC5;
+      font-weight: bold;
+  }
+
+  .bluebtn {
+    background-color: #406D9F;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  .bluebtn:hover{
+      background-color: #FFD8CA;
+  }
+  .pinkbtn{
+    background-color: #FFD8CA;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  .pinkbtn:hover{
+      background-color: #406D9F;
+      color: white;
+  }
+  .hotpinkbtn{
+    background-color: #AE5163;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  .hotpinkbtn:hover{
+    background-color: #FFD8CA;
+    color: black;
+  }
+
+  .text-hotpink{
+      color: #C54F65;
+  }
+  .text-white{
+      color: white;
+  }

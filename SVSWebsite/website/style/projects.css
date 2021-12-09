@@ -1,0 +1,49 @@
+.projectRow{
+    background-color: #C54F65;
+    padding-right: 0 !important;
+    margin-bottom: 40px;
+}
+.projectRow:nth-child(2) {
+    background: #7197C0;
+  }
+.projectRow button{
+    background-color:#FFD8CA ;
+}
+.projectRow > button:nth-child(2){
+    background-color:#B0F6FF ;
+}
+.projectRow .content{
+    margin: 25px 0px 25px 0px;
+}
+.projectRow .d-flex{
+    position: absolute;
+    bottom: 0;
+}
+.donation .number,
+.impact .number{
+    font-size: 28px;
+    color: #FFD8CA;
+    font-weight: 700;
+}
+
+.donation .title,
+.impact .title{
+    font-size: 20px;
+    color: #85BEC5;
+    font-weight: 700;
+}
+
+.donation:nth-child(even) .title,
+.impact:nth-child(even) .title{
+    color: #AE5163;
+}
+
+.white{
+    color: white;
+}
+.font-32{
+    font-size: 32px;
+}
+.scaled {
+    transform: scale(0.85); /* Equal to scaleX(2) scaleY(0.5) */
+  }
